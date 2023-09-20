@@ -108,9 +108,9 @@ function deleteAllCourses(){
     const buttonContainer = document.getElementById("delete-all-button-container");
     if (deleteButton && buttonContainer) {
       buttonContainer.removeChild(deleteButton)
+    }
   }
 }
-
 // Function to save courses to localStorage
 function saveCourses() {
   localStorage.setItem('courses', JSON.stringify(courses));
